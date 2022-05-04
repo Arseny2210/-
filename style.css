@@ -1,0 +1,99 @@
+.btn-blue:hover {
+    transition: all .4s;
+    background-color: #033fff;
+    box-shadow: 0 0 10px rgb(3, 62, 255, 0.6);
+}
+
+.icon {
+    color: #033fff;
+}
+
+header .navbar .nav-link:hover {
+    border: 1px solid black;
+    /* transition: .1s; */
+}
+
+section {
+    margin: 50px 0;
+}
+
+header .navbar .nav-link {
+    padding: 5px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 20px;
+}
+
+.promo li{
+    list-style: none;
+    position: relative;
+    line-height: 30px;
+}
+
+.promo li::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #60738e;
+    position: absolute;
+    left: -20px;
+    top: 14px;
+}
+
+.promo .btns a:first-child {
+    background-color: #033fff;
+}
+
+.promo .carousel-inner {
+    height: 653px;
+}
+
+.card {
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.card-img {
+ transition: .3s;
+ transform: scale(1.6);
+}
+
+.courses {
+ background-color: #160d27;
+}
+
+.courses .wrap {
+    width: 360px;
+}
+
+.courses a:hover > .card-img{
+    transform: scale(1.9);
+}
+
+.card-bottom {
+    color: #97c5cf;
+}
+
+@media screen and (max-width: 992px) {
+    .promo li:before {
+      display: none;
+    }
+
+    .promo .carousel-inner {
+        width: 500px;
+        margin: 0 auto;
+        height: 520px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .courses .wrap {
+        width: 100%;
+    }
+
+    .courses .card {
+        height: 330px;
+    }
+}
