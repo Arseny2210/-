@@ -76,15 +76,33 @@ header .navbar .nav-link {
     color: #97c5cf;
 }
 
+.search img {
+    background-color: #e5ebff;
+}
+
+.add-info {
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    box-shadow: 10px 12px 10px #ededed;
+    transform: translateY(-50px);
+}
+
 @media screen and (max-width: 992px) {
     .promo li:before {
       display: none;
     }
 
     .promo .carousel-inner {
-        width: 500px;
+        /* width: 500px;
+        height: 520px; */
         margin: 0 auto;
-        height: 520px;
+        width: 520px;
+        height: auto;
+    }
+
+    .photos {
+        width: 520px;
+        height: auto;
     }
 }
 
@@ -95,5 +113,19 @@ header .navbar .nav-link {
 
     .courses .card {
         height: 330px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .promo .carousel-inner {
+        width: 320px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .photos {
+        width: 320px;
+        height: auto;
+        margin: 0 auto;
     }
 }
