@@ -1,11 +1,24 @@
-.btn-blue:hover {
+:root {
+    --btn-blue:#033fff;
+}
+
+.btn-blue-static {
+    background-color: var(--btn-blue);
+    color: white !important;
+}
+
+.btn-blue {
     transition: all .4s;
-    background-color: #033fff;
+}
+
+.btn-blue:hover {
+    background-color: var(--btn-blue);
     box-shadow: 0 0 10px rgb(3, 62, 255, 0.6);
 }
 
+
 .icon {
-    color: #033fff;
+    color: var(--btn-blue);
 }
 
 header .navbar .nav-link:hover {
@@ -43,7 +56,7 @@ header .navbar .nav-link {
 }
 
 .promo .btns a:first-child {
-    background-color: #033fff;
+    background-color: var(--btn-blue);
 }
 
 .promo .carousel-inner {
@@ -85,6 +98,41 @@ header .navbar .nav-link {
     border-radius: 20px;
     box-shadow: 10px 12px 10px #ededed;
     transform: translateY(-50px);
+}
+
+.learning {
+    background-color: #eff4f7;
+}
+
+.learning #flush-collapseOne, #flush-collapseTwo,   #flush-collapseThree {
+    transition: .3s;
+}
+
+.learning .accordion-item {
+    border-radius: 20px;
+}
+
+.learning .accordion-button:focus {
+    box-shadow: none;
+    color: black;
+    background-color: transparent;
+}
+
+.learning .accordion-button::after {
+    background: url(img/arr.svg), linear-gradient(rgb(177, 9, 177), var(--btn-blue));
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-size: 20px, 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .3s;
+}
+
+.learning .accordion-button:not(.collapsed) {
+    color: black;
+    background-color: transparent;
+    box-shadow: none;
 }
 
 @media screen and (max-width: 992px) {
