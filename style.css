@@ -14,7 +14,7 @@
   color: var(--btn-blue);
 }
 section {
-  margin: 60px 0;
+  padding: 60px 0;
 }
 header .navbar .nav-link:hover {
   border-color: #000;
@@ -204,6 +204,33 @@ header .navbar .nav-link {
 .feedback .card-link__link i {
   margin-right: 5px;
 }
+
+.adv {
+  background-color: #eff4f7;
+}
+
+.item {
+  border-radius: 15px; 
+  box-shadow: 0 15px 30px rgb(202 203 206 / 25%);
+  padding: 10px;
+  background-color: #fff;
+  position: relative;
+}
+
+.adv .item p {
+  font-weight: bold;
+}
+
+.adv .item span {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  background-image: linear-gradient(180deg, #7e32ff 0%, #033fff 100%);
+  padding: 5px 7px;
+  border-radius: 10px 0px 10px 0px;
+}
+
 @media screen and (max-width: 1400px) {
   .feedback .card .wrap-img:hover::after {
     width: 190px;
