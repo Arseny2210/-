@@ -1,333 +1,904 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dootstrap</title>
-    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="img/logo.png" alt="" width="130">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">О проекте</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Курсы</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Премьера</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Блог</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Отзывы</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Контакты</a>
-              </li>
-            </ul>
-              <a href="" class="d-inline-block">
-                <i class="bi bi-person-fill fs-2 icon"></i>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img
+                src="img/2022-04-25_204647083-removebg-preview.png"
+                alt=""
+                width="130"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >О проекте
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link" href="#">Курсы</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Премьеры</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Блог</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Отзывы</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Контакты</a>
+                </li>
+              </ul>
+
+              <a href="" class="text-decoration-none align-bottom">
+                <i class="bi bi-person-circle fs-1 icon"></i>
               </a>
-              <a href="" class="btn btn-outline-primary rounded-pill p-2 px-4 btn-blue ms-3 align-bottom">
-                Подать заявку
-              </a>
+              <a
+                class="btn btn-blue btn-outline-primary rounded-pill p-2 px-4 ms-3"
+                href=""
+                >Подать заявку</a
+              >
+            </div>
           </div>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <section class="promo">
-    <div class="container">
-      <div class="row gy-5">
-        <div class="col col-lg-6 col-sm-12 text-center text-lg-start">
-          <h1 class="fw-bold display-2 font-monospace">
-            Веб-разработчик: код фрилансера
-          </h1>
-          <p class="fw-bold font-monospace">Освойте веб-разработку и станьте востребованным специалистом</p>
-          <ul class="list-group ms-4">
-            <li class="">Актуальные на 2022-ый год технологии и задачи</li>
-            <li class="">Работа над 5-ю крутыми проектами в портфолио</li>
-            <li class="">От 0 в верстке до работы с CMS WordPress</li>
-          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="promo">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-12 col-lg-6 text-center text-lg-start">
+            <h1 class="fw-bold display-2 font-monospace">
+              Веб-разработчик: код фрилансера
+            </h1>
+            <p class="fw-bold font-monospace mt-4">
+              Освойте веб-разработку и станьте востребованным специалистом
+            </p>
+            <ul class="list-group ms-4">
+              <li class="">Актуальные на 2022-ый год технологии и задачи</li>
+              <li class="">Работа над 5-ю крутыми проектами в портфолио</li>
+              <li class="">От 0 в верстке до работы с CMS WordPress</li>
+            </ul>
             <div class="btns my-5">
-              <a href="" class="btn btn-primary rounded-pill p-3 px-4 btn-blue ms-3 align-bottom my-1">
-                Попасть на коучинг
+              <a
+                class="btn btn-blue btn-primary rounded-pill p-3 px-4 ms-3"
+                href=""
+                >Попасть на коучинг
               </a>
-              <a href="" class="btn btn-outline-primary rounded-pill p-3 px-4 btn-blue ms-3 align-bottom my-1">
-                У меня есть вопросы
-              </a>
+              <a
+                class="btn btn-blue btn-outline-primary rounded-pill p-3 px-4 ms-3"
+                href=""
+                >У меня есть вопросы</a
+              >
             </div>
             <div class="features">
-              <div class="item d-inline-block me-4 my-2">
-                <img src="img/offer-point1.svg" alt="">
+              <div class="item d-inline-block me-4">
+                <img src="img/offer-point1.svg" alt="" />
                 <label for="">3 месяца</label>
               </div>
-              <div class="item d-inline-block me-4 my-2">
-                <img src="img/offer-point2.svg" alt="">
+              <div class="item d-inline-block me-4">
+                <img src="img/offer-point2.svg" alt="" />
                 <label for="">Личная работа</label>
               </div>
-              <div class="item d-inline-block my-2">
-                <img src="img/offer-point3.svg" alt="">
+              <div class="item d-inline-block">
+                <img src="img/offer-point3.svg" alt="" />
                 <label for="">1 месяц фриланса в подарок</label>
               </div>
-            </div>  
-        </div>
-        <div class="col col-lg-6 col-sm-12">
-          <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-interval="1000">
-                <img src="img/offer-pic1.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-interval="1000">
-                <img src="img/offer-pic2.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-interval="1000">
-                <img src="img/offer-pic3.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                  <img
+                    src="img/offer-pic1.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img
+                    src="img/offer-pic2.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img
+                    src="img/offer-pic3.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section class="courses py-5">
-    <div class="container">
-      <h2 class="fw-bold text-center text-white my-4">
-        Верстка и разработка сегодня
-      </h2>
-      <div class="row justify-content-between g-5 align-items-center">
-        <div class="wrap">
-          <a class="col-12 card text-white border-0 p-0">
-            <img src="img/kosmos.jpg" class="card-img" style="border-radius: 30px;">
-            <div class="card-img-overlay p-5">
-              <div class="row align-items-center">
-                <img src="img/чел.jpg" class="rounded-circle col-3" alt="">
-                <p class="card-text col-9">Сергей Демин</p>
-              </div>
-              <div class="row my-4">
-                <span class="badge bg-primary col-5 me-4 rounded-pill">JavaScript</span>
-                <span class="badge bg-success col-3 rounded-pill">Free</span>
-              </div>
-              <p class="card-text fw-bold fs-4">Основы JavaScript для начинающих за 2 часа</p>
-            </div>
-          </a>
-          <div class="row mt-3 card-bottom">
-            <span class="col-12 text-center">
-              <i class="bi bi-clock"></i>
-               08 февраля в 19:15 (мск)
-            </span>
-            <span class="col-6 text-end">
-              <i class="bi bi-eye"></i>
-              6944
-            </span>
-            <span class="col-6 text-start">
-              <i class="bi bi-egg"></i>
-              1:55:03
-            </span>
-          </div>
-        </div>
-        <div class="wrap">
-          <a class="col-12 card text-white border-0 p-0">
-            <img src="img/cvet.jpg" class="card-img" style="border-radius: 30px;">
-            <div class="card-img-overlay p-5">
-              <div class="row align-items-center">
-                <img src="img/чел.jpg" class="rounded-circle col-3" alt="">
-                <p class="card-text col-9">Сергей Демин</p>
-              </div>
-              <div class="row my-4">
-                <span class="badge bg-primary col-5 me-4 rounded-pill">JavaScript</span>
-                <span class="badge bg-success col-3 rounded-pill">Free</span>
-              </div>
-              <p class="card-text fw-bold fs-4">Основы JavaScript для начинающих за 2 часа</p>
-            </div>
-          </a>
-          <div class="row mt-3 card-bottom">
-            <span class="col-12 text-center">
-              <i class="bi bi-clock"></i>
-               08 февраля в 19:15 (мск)
-            </span>
-            <span class="col-6 text-end">
-              <i class="bi bi-eye"></i>
-              6944
-            </span>
-            <span class="col-6 text-start">
-              <i class="bi bi-egg"></i>
-              1:55:03
-            </span>
-          </div>
-        </div>
-        <div class="wrap">
-          <a class="col-12 card text-white border-0 p-0">
-            <img src="img/Ai.jpg" class="card-img" style="border-radius: 30px;">
-            <div class="card-img-overlay p-5">
-              <div class="row align-items-center">
-                <img src="img/чел.jpg" class="rounded-circle col-3" alt="">
-                <p class="card-text col-9">Сергей Демин</p>
-              </div>
-              <div class="row my-4">
-                <span class="badge bg-primary col-5 me-4 rounded-pill">JavaScript</span>
-                <span class="badge bg-success col-3 rounded-pill">Free</span>
-              </div>
-              <p class="card-text fw-bold fs-4">Основы JavaScript для начинающих за 2 часа</p>
-            </div>
-          </a>
-          <div class="row mt-3 card-bottom">
-            <span class="col-12 text-center">
-              <i class="bi bi-clock"></i>
-               08 февраля в 19:15 (мск)
-            </span>
-            <span class="col-6 text-end">
-              <i class="bi bi-eye"></i>
-              6944
-            </span>
-            <span class="col-6 text-start">
-              <i class="bi bi-egg"></i>
-              1:55:03
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>  
-  </section>
-  <section class="information">
-    <div class="container">
-      <h1 class="text-center fw-bold mb-5">
-        Кого мы ждем на обучении
-      </h1>
-      <div class="row flex-row-reverse">
-        <div class="col search mt-5 offset-0 offset-xl-2 text-center">
-          <div class="row row-cols-1 row-cols-sm-2 text-center text-lg-start gy-3 gx-5">
-            <div class="col text-xl-start text-sm-center">
-              <div>
-                <img src="img/who-icon1.svg" width="65px" height="65px" class=" rounded-circle p-2 mb-2" alt="">
-                <p class="fw-bold">Полных новичков</p>
-              </div>
-            </div>
-            <div class="col-12 col-xl-6 text-xl-start text-sm-center">
-              <div>
-                <img src="img/who-icon2.svg" width="65px" height="65px" class=" rounded-circle p-2 mb-2" alt="">
-                <p class="fw-bold">
-                  Веб-дизайнеров</p>
-              </div>
-            </div>
-            <div class="col text-xl-start text-sm-center">
-              <div>
-                <img src="img/who-icon3.svg" width="65px" height="65px" class=" rounded-circle p-2 mb-2" alt="">
-                <p class="fw-bold">
-                  Digital-специалистов</p>
-              </div>
-            </div>
-            <div class="col text-xl-start text-sm-center">
-              <div>
-                <img src="img/who-icon4.svg" width="65px" height="65px" class=" rounded-circle p-2 mb-2" alt="">
-                <p class="fw-bold">
-                  Желающих обрести IT-профессию</p>
-              </div>
-            </div>
-            <div class="col text-xl-start text-sm-center">
-              <div>
-                <img src="img/who-icon5.svg" width="65px" height="65px" class=" rounded-circle p-2 mb-2" alt="">
-                <p class="fw-bold">
-                  UI/UX-дизайнеров</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-xl-6 text-center">
-          <img src="img/whom-pic.png" alt="" class="photos">
-        </div>
-        <div class="col-12 col-lg-6 add-info mx-auto bg-white text-center p-4">
-          <h4 class="fw-bold mb-3">Нужен ли опыт работы с HTML и CSS?</h4>
-          <p class="my-3">
-            На коучинге мы будем осваивать верстку и разработку с нуля и планомерно повышать ваш уровень. Любой опыт будет полезен, но не обязателен.
-          </p>
-          <a href="" class="btn rounded-pill p-3 px-4 btn-blue btn-blue-static ms-3">Попасть на коучинг</a>
-        </div>
-    </div>
-  </section>
-  <section class="learning py-5">
-    <div class="container">
-      <h2 class="fw-bold text-center mb-5">Ваша программа обучения</h2>
-      <div class="my-4 accordion accordion-flush" id="accordionFlushExample1">
-        <div class="accordion-item p-2">
-          <span class="me-3 px-3">Блок #1</span>
-          <span class="text-primary small">3 занятия</span>
-          <h2 class="accordion-header" id="flush-headingOne">
-            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              Введение
-            </button>
-          </h2>
-          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">
-              <ul>
-                <li>Знакомство с коучингом и профессией</li>
-                <li>Знакомство с HTML</li>
-                <li>Знакомство с CSS</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="my-4 accordion accordion-flush" id="accordionFlushExample2">
-        <div class="accordion-item p-2">
-          <span class="me-3 px-3">Блок #2</span>
-          <span class="text-primary small">4 занятия</span>
-          <h2 class="accordion-header" id="flush-headingOne">
-            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseOne">
-              Введение
-            </button>
-          </h2>
-          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample1">
-            <div class="accordion-body">
-              <ul>
-                <li>Знакомство с коучингом и профессией</li>
-                <li>Знакомство с HTML</li>
-                <li>Знакомство с CSS</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="my-4 accordion accordion-flush" id="accordionFlushExample3">
-        <div class="accordion-item p-2">
-          <span class="me-3 px-3">Блок #3</span>
-          <span class="text-primary small">6 занятия</span>
-          <h2 class="accordion-header" id="flush-headingOne">
-            <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseOne">
-              Введение
-            </button>
-          </h2>
-          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample3">
-            <div class="accordion-body">
-              <ul>
-                <li>Знакомство с коучингом и профессией</li>
-                <li>Знакомство с HTML</li>
-                <li>Знакомство с CSS</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>
-</body>
+    <section class="courses py-5">
+      <div class="container">
+        <h2 class="fw-bold text-center text-white my-4">
+          Верстка и разработка сегодня
+        </h2>
+        <div class="row justify-content-between g-5">
+          <div class="wrap">
+            <a href="" class="card col-12 text-white border-0 p-0">
+              <img
+                src="img/x-lm184-bg.425.jpg"
+                class="card-img"
+                style="border-radius: 30px"
+              />
+              <div class="card-img-overlay p-5">
+                <div class="row align-items-center">
+                  <img src="img/demin.jpg" class="col-3 rounded-circle" />
+                  <p class="col-9 card-text">Сергей Демин</p>
+                </div>
+                <div class="row my-4">
+                  <span class="col-2 badge bg-info text-dark me-2 rounded-pill"
+                    >Free</span
+                  >
+                  <span class="col-4 badge bg-primary text-dark rounded-pill"
+                    >Java Script</span
+                  >
+                </div>
+                <p class="card-text fw-bold fs-4">
+                  Основы JavaScript для начинающих за 2 часа
+                </p>
+              </div>
+            </a>
+            <div class="row mt-3 card-bottom">
+              <span class="col-12 text-center">
+                <i class="bi bi-clock"></i>
+                08 февраля в 19:15 (мск)
+              </span>
+              <span class="col-6 text-end">
+                <i class="bi bi-eye"></i>
+                6944
+              </span>
+              <span class="col-6 text-start">
+                <i class="bi bi-egg"></i>
+                1:55:03
+              </span>
+            </div>
+          </div>
+          <div class="wrap">
+            <a href="" class="card col-12 text-white border-0 p-0">
+              <img
+                src="img/x-lm139.0ad.jpg"
+                class="card-img"
+                style="border-radius: 30px"
+              />
+              <div class="card-img-overlay p-5">
+                <div class="row align-items-center">
+                  <img src="img/demin.jpg" class="col-3 rounded-circle" />
+                  <p class="col-9 card-text">Сергей Демин</p>
+                </div>
+                <div class="row my-4">
+                  <span class="col-2 badge bg-info text-dark me-2 rounded-pill"
+                    >Free</span
+                  >
+                  <span class="col-4 badge bg-primary text-dark rounded-pill"
+                    >Java Script</span
+                  >
+                </div>
+                <p class="card-text fw-bold fs-4">
+                  Основы JavaScript для начинающих за 2 часа
+                </p>
+              </div>
+            </a>
+            <div class="row mt-3 card-bottom">
+              <span class="col-12 text-center">
+                <i class="bi bi-clock"></i>
+                08 февраля в 19:15 (мск)
+              </span>
+              <span class="col-6 text-end">
+                <i class="bi bi-eye"></i>
+                6944
+              </span>
+              <span class="col-6 text-start">
+                <i class="bi bi-egg"></i>
+                1:55:03
+              </span>
+            </div>
+          </div>
+          <div class="wrap">
+            <a href="" class="card col-12 text-white border-0 p-0">
+              <img
+                src="img/x-lm130.0ad.jpg"
+                class="card-img"
+                style="border-radius: 30px"
+              />
+              <div class="card-img-overlay p-5">
+                <div class="row align-items-center">
+                  <img src="img/demin.jpg" class="col-3 rounded-circle" />
+                  <p class="col-9 card-text">Сергей Демин</p>
+                </div>
+                <div class="row my-4">
+                  <span class="col-2 badge bg-info text-dark me-2 rounded-pill"
+                    >Free</span
+                  >
+                  <span class="col-4 badge bg-primary text-dark rounded-pill"
+                    >Java Script</span
+                  >
+                </div>
+                <p class="card-text fw-bold fs-4">
+                  Основы JavaScript для начинающих за 2 часа
+                </p>
+              </div>
+            </a>
+            <div class="row mt-3 card-bottom">
+              <span class="col-12 text-center">
+                <i class="bi bi-clock"></i>
+                08 февраля в 19:15 (мск)
+              </span>
+              <span class="col-6 text-end">
+                <i class="bi bi-eye"></i>
+                6944
+              </span>
+              <span class="col-6 text-start">
+                <i class="bi bi-egg"></i>
+                1:55:03
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="information">
+      <div class="container">
+        <h1 class="text-center fw-bold mb-5">Кого мы ждем на обучении</h1>
+        <div class="row flex-row-reverse mt-5">
+          <div class="col search offset-0 offset-xl-1">
+            <div
+              class="row row-cols-1 row-cols-sm-2 text-center text-lg-start gy-3"
+            >
+              <div class="col">
+                <div class="">
+                  <img
+                    class="rounded-circle mb-3"
+                    src="img/who-icon1.svg"
+                    width="65"
+                    height="65"
+                  />
+                  <p class="fw-bold">Полных новичков</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="">
+                  <img
+                    class="rounded-circle mb-3"
+                    src="img/who-icon2.svg"
+                    width="65"
+                    height="65"
+                  />
+                  <p class="fw-bold">Полных новичков</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="">
+                  <img
+                    class="rounded-circle mb-3"
+                    src="img/who-icon3.svg"
+                    width="65"
+                    height="65"
+                  />
+                  <p class="fw-bold">Полных новичков</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="">
+                  <img
+                    class="rounded-circle mb-3"
+                    src="img/who-icon4.svg"
+                    width="65"
+                    height="65"
+                  />
+                  <p class="fw-bold">Желающих обрести IT-профессию</p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="">
+                  <img
+                    class="rounded-circle mb-3"
+                    src="img/who-icon5.svg"
+                    width="65"
+                    height="65"
+                  />
+                  <p class="fw-bold">Полных новичков</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <img src="img/whom-pic.png" width="100%" />
+          </div>
+          <div
+            class="col-12 col-lg-6 add-info bg-white text-center p-5 mx-auto"
+          >
+            <h4 class="fw-bold">Нужен ли опыт работы с HTML и CSS?</h4>
+            <p class="my-3">
+              На коучинге мы будем осваивать верстку и разработку с нуля и
+              планомерно повышать ваш уровень. Любой опыт будет полезен, но не
+              обязателен.
+            </p>
+            <a
+              class="btn rounded-pill p-3 ms-3 px-5 btn-blue btn-blue-static"
+              href=""
+              >Попасть на коучинг</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="learning py-5">
+      <div class="container">
+        <h2 class="fw-bold text-center mb-5">Ваша программа обучения</h2>
+        <div class="accordion accordion-flush my-4" id="accordionFlushExample">
+          <div class="accordion-item p-3">
+            <span class="small me-3 px-3">Блок #1</span>
+            <span class="text-warning small">3 занятия</span>
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed fw-bold border-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Введение
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <ul>
+                  <li>Знакомство с коучингом и профессией</li>
+                  <li>Знакомство с HTML</li>
+                  <li>Знакомство с CSS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion accordion-flush my-4" id="accordionFlushExample2">
+          <div class="accordion-item p-3">
+            <span class="small me-3 px-3">Блок #2</span>
+            <span class="text-warning small">4 занятия</span>
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed fw-bold border-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Погружение
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample2"
+            >
+              <div class="accordion-body">
+                <ul>
+                  <li>Знакомство с коучингом и профессией</li>
+                  <li>Знакомство с HTML</li>
+                  <li>Знакомство с CSS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion accordion-flush my-4" id="accordionFlushExample3">
+          <div class="accordion-item p-3">
+            <span class="small me-3 px-3">Блок #3</span>
+            <span class="text-warning small">2 занятия</span>
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed fw-bold border-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Все покажет практика
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample3"
+            >
+              <div class="accordion-body">
+                <ul>
+                  <li>Знакомство с коучингом и профессией</li>
+                  <li>Знакомство с HTML</li>
+                  <li>Знакомство с CSS</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feedback">
+      <div class="container">
+        <div class="center slider g-4">
+          <div class="card text-center" style="min-width: 320px">
+            <div
+              class="wrap-img"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
+              <img
+                src="img/demin.jpg"
+                class="card-img-top img-in-block"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Степан Андреевич</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card text-center" style="min-width: 320px">
+            <div
+              class="wrap-img"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal1"
+            >
+              <img
+                src="img/demin.jpg"
+                class="card-img-top img-in-block"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Степан Андреевич</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card text-center" style="min-width: 320px">
+            <div
+              class="wrap-img"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal2"
+            >
+              <img
+                src="img/demin.jpg"
+                class="card-img-top img-in-block"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Степан Андреевич</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card text-center" style="min-width: 320px">
+            <div
+              class="wrap-img"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal3"
+            >
+              <img
+                src="img/demin.jpg"
+                class="card-img-top img-in-block"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Степан Андреевич</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card text-center" style="min-width: 320px">
+            <div
+              class="wrap-img"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal4"
+            >
+              <img
+                src="img/demin.jpg"
+                class="card-img-top img-in-block"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Степан Андреевич</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card text-center" style="min-width: 320px">
+            <div
+              class="wrap-img"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal5"
+            >
+              <img
+                src="img/demin.jpg"
+                class="card-img-top img-in-block"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Степан Андреевич</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body text-center">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/ECm67Wbp-xs"
+                  title="YouTube video"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <h3 class="my-3">Ткаченко Вероника</h3>
+              <a href="" class="card-link__link">
+                <i class="fa-brands fa-vk"></i>
+                vkontakte
+              </a>
+              <p class="lh-lg">
+                Я закончила обучение на коучинге "Веб-разработчик: код
+                фрилансера" Впечатления положительные, классная подача
+                материала, структурированные уроки. Отдельное спасибо Андрею
+                Гаврилову за космическую мотивацию и поддержку. Благодарна
+                наставнику Евгению, очень помогали его видеоразборы домашних
+                заданий. Большую помощь оказывал и телеграмм-чат. Куратор Никита
+                быстро справлялся с любыми техническими неполадками. Было
+                нелегко, но сдав дипломный проект поняла, какой путь проделала
+                за эти три месяца. Это стоило бессонных ночей, переживаний. У
+                меня все получилось и я понимаю, что нахожусь на правильном
+                пути. Спасибо WAYUP за работу, вы - крутые!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="exampleModal1"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body text-center">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/ECm67Wbp-xs"
+                  title="YouTube video"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <h3 class="my-3">Ткаченко Вероника</h3>
+              <a href="" class="card-link__link">
+                <i class="fa-brands fa-vk"></i>
+                vkontakte
+              </a>
+              <p class="lh-lg">
+                Я закончила обучение на коучинге "Веб-разработчик: код
+                фрилансера" Впечатления положительные, классная подача
+                материала, структурированные уроки. Отдельное спасибо Андрею
+                Гаврилову за космическую мотивацию и поддержку. Благодарна
+                наставнику Евгению, очень помогали его видеоразборы домашних
+                заданий. Большую помощь оказывал и телеграмм-чат. Куратор Никита
+                быстро справлялся с любыми техническими неполадками. Было
+                нелегко, но сдав дипломный проект поняла, какой путь проделала
+                за эти три месяца. Это стоило бессонных ночей, переживаний. У
+                меня все получилось и я понимаю, что нахожусь на правильном
+                пути. Спасибо WAYUP за работу, вы - крутые!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="exampleModal2"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body text-center">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/ECm67Wbp-xs"
+                  title="YouTube video"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <h3 class="my-3">Ткаченко Вероника</h3>
+              <a href="" class="card-link__link">
+                <i class="fa-brands fa-vk"></i>
+                vkontakte
+              </a>
+              <p class="lh-lg">
+                Я закончила обучение на коучинге "Веб-разработчик: код
+                фрилансера" Впечатления положительные, классная подача
+                материала, структурированные уроки. Отдельное спасибо Андрею
+                Гаврилову за космическую мотивацию и поддержку. Благодарна
+                наставнику Евгению, очень помогали его видеоразборы домашних
+                заданий. Большую помощь оказывал и телеграмм-чат. Куратор Никита
+                быстро справлялся с любыми техническими неполадками. Было
+                нелегко, но сдав дипломный проект поняла, какой путь проделала
+                за эти три месяца. Это стоило бессонных ночей, переживаний. У
+                меня все получилось и я понимаю, что нахожусь на правильном
+                пути. Спасибо WAYUP за работу, вы - крутые!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="exampleModal3"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body text-center">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/ECm67Wbp-xs"
+                  title="YouTube video"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <h3 class="my-3">Ткаченко Вероника</h3>
+              <a href="" class="card-link__link">
+                <i class="fa-brands fa-vk"></i>
+                vkontakte
+              </a>
+              <p class="lh-lg">
+                Я закончила обучение на коучинге "Веб-разработчик: код
+                фрилансера" Впечатления положительные, классная подача
+                материала, структурированные уроки. Отдельное спасибо Андрею
+                Гаврилову за космическую мотивацию и поддержку. Благодарна
+                наставнику Евгению, очень помогали его видеоразборы домашних
+                заданий. Большую помощь оказывал и телеграмм-чат. Куратор Никита
+                быстро справлялся с любыми техническими неполадками. Было
+                нелегко, но сдав дипломный проект поняла, какой путь проделала
+                за эти три месяца. Это стоило бессонных ночей, переживаний. У
+                меня все получилось и я понимаю, что нахожусь на правильном
+                пути. Спасибо WAYUP за работу, вы - крутые!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="exampleModal4"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body text-center">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/ECm67Wbp-xs"
+                  title="YouTube video"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <h3 class="my-3">Ткаченко Вероника</h3>
+              <a href="" class="card-link__link">
+                <i class="fa-brands fa-vk"></i>
+                vkontakte
+              </a>
+              <p class="lh-lg">
+                Я закончила обучение на коучинге "Веб-разработчик: код
+                фрилансера" Впечатления положительные, классная подача
+                материала, структурированные уроки. Отдельное спасибо Андрею
+                Гаврилову за космическую мотивацию и поддержку. Благодарна
+                наставнику Евгению, очень помогали его видеоразборы домашних
+                заданий. Большую помощь оказывал и телеграмм-чат. Куратор Никита
+                быстро справлялся с любыми техническими неполадками. Было
+                нелегко, но сдав дипломный проект поняла, какой путь проделала
+                за эти три месяца. Это стоило бессонных ночей, переживаний. У
+                меня все получилось и я понимаю, что нахожусь на правильном
+                пути. Спасибо WAYUP за работу, вы - крутые!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="modal fade"
+        id="exampleModal5"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body text-center">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/ECm67Wbp-xs"
+                  title="YouTube video"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <h3 class="my-3">Ткаченко Вероника</h3>
+              <a href="" class="card-link__link">
+                <i class="fa-brands fa-vk"></i>
+                vkontakte
+              </a>
+              <p class="lh-lg">
+                Я закончила обучение на коучинге "Веб-разработчик: код
+                фрилансера" Впечатления положительные, классная подача
+                материала, структурированные уроки. Отдельное спасибо Андрею
+                Гаврилову за космическую мотивацию и поддержку. Благодарна
+                наставнику Евгению, очень помогали его видеоразборы домашних
+                заданий. Большую помощь оказывал и телеграмм-чат. Куратор Никита
+                быстро справлялся с любыми техническими неполадками. Было
+                нелегко, но сдав дипломный проект поняла, какой путь проделала
+                за эти три месяца. Это стоило бессонных ночей, переживаний. У
+                меня все получилось и я понимаю, что нахожусь на правильном
+                пути. Спасибо WAYUP за работу, вы - крутые!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
 </html>
