@@ -19,7 +19,7 @@ body {
   color: var(--btn-blue);
 }
 
-section {
+section, footer {
   padding: 60px 0;
 }
 
@@ -127,6 +127,11 @@ header .navbar .nav-link {
 }
 
 /* Slick */
+
+.feedback {
+  overflow: hidden;
+}
+
 .feedback .card {
   border-radius: 100px 100px 0 0;
   border: 0px;
@@ -232,6 +237,7 @@ header .navbar .nav-link {
   color: white;
   padding: 90px 0;
   position: relative;
+  overflow: hidden;
 }
 
 .why .container {
@@ -329,11 +335,6 @@ header .navbar .nav-link {
   bottom: 8px;
 }
 
-/* .study .tabs button i {
-  position: absolute;
-  right: 10px;
-} */
-
 .study .tabs button i {
   color: #ffc600;
   transition: .3s;
@@ -384,6 +385,76 @@ header .navbar .nav-link {
 
 .study .accordion-item {
   background-color: transparent;
+}
+
+footer {
+  background-color: #e9f1f2;
+}
+
+footer .icons {
+  color: #fff;
+  display: inline-block;
+}
+
+footer .icons i {
+  color: #60738e;
+  border-radius: 100%;
+  display: inline-block;
+  transition: .7s;
+  font-size: 20px;
+}
+
+footer .icons:hover > i {
+  transform: rotate(360deg);
+}
+
+footer ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+.input-email input {
+  border: none;
+  border-bottom: 1px solid #60738e;
+  background-color: transparent;
+}
+
+.input-email input:focus {
+  box-shadow: none;
+  background-color: transparent;
+  border-bottom: 1px solid #60738e;
+}
+
+.input-email button {
+  border: none;
+  background-color: transparent;
+}
+
+.input-email button:hover {
+  background: none;
+}
+
+.input-email button i {
+  transition: .2s;
+}
+
+.input-email button:hover i {
+  transform: scaleX(-1);
+}
+
+.input-email button:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.input-email .btn-outline-secondary:focus {
+  box-shadow: none;
+  border: none;
+}
+
+footer col img {
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 992px) {
@@ -467,10 +538,111 @@ header .navbar .nav-link {
 }
 
 @media screen and (max-width: 576px) {
+  .promo h1 {
+    font-size: 26px;
+  }
+
+  .promo ul {
+    display: none;
+  }
+
+  .promo .btns a {
+    margin: 7px 0;
+  }
+
   .promo .carousel-inner {
-    width: 320px;
+    width: 280px;
     margin: 0 auto;
     height: auto;
     /* height: 576px; */
   }
+
+  .courses .row .card-text {
+    font-size: 18px !important;
+  }
+
+  .information {
+    padding: 20px 0 ;
+  }
+
+  .information .add-info {
+    margin: 0 5px !important;
+    padding: 10px !important;
+    width: 90% !important;
+  }
+
+  .information .add-info h4 {
+    font-size: 18px;
+  }
+
+  .information .add-info .btn{
+    padding: 12px !important;
+    font-size: 12px;
+  }
+
+  .slick-slide {
+    /* margin: 0 -16px;
+    padding: 0; */
+ }
+
+ .slick-list {
+  margin: 0 -50px;
+ }
+
+ .feedback .slick-next, 
+ .feedback .slick-prev{
+  display: none !important;
+ }
+
+ .feedback .card-text {
+  font-size: 12px;
+ }
+
+  .feedback .wrap-img::before, 
+  .feedback .wrap-img::after {
+    display: none;
+  }
+
+  .feedback .modal-body p {
+    font-size: 12px;
+  }
+  
+  .why {
+    padding: 20px 0 !important; 
+  }
+
+  .why .item {
+    width: 80%;
+  }
+
+  .why .item label {
+    font-size: 16px;
+  }
+
+  .why .item p {
+    font-size: 12px;
+  }
+
+  .study {
+    padding: 20px 0 !important; 
+  }
+
+  .study button {
+    margin: 0 10px;
+    width: 90% !important;
+    font-size: 14px;
+  }
+
+  .study .accordion-body {
+    font-size: smaller !important;
+  }
+
+  .study .accordion-body a {
+    margin: 0;
+  }
+
+  footer .main {
+    display: none;
+  }
+
 }
